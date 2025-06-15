@@ -1,0 +1,51 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+html{
+font-size: 1.2rem;
+}
+
+#poke{
+  height: fit-content;
+}
+body{
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  background-image: url("");
+  background-size: cover;
+  text-shadow: 2px 2px 0px slateblue, -2px -2px 0px slateblue,2px -2px 0px slateblue, -2px 2px 0px slateblue;  
+}
+
+h3{
+  display:block;
+  font-size: 1.17em;
+  margin-block-start:1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+#poke {
+  height: 40vh;
+}
